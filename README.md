@@ -6,7 +6,7 @@ The project is written in Angular and Angular-CLI and is hosted on GitHub Pages.
 
 ## How to Deploy
 
-ng build --prod --base-href "https://sandboxis.github.io/governance/"
+ng build --prod --base-href "https://oursandbox.is"
 angular-cli-ghpages
 
 # Oursandbox.Is
