@@ -1,1 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+@import url('http://fonts.googleapis.com/icon?family=Material+Icons');
+@import 'assets/styles/fonts';
+@import 'assets/styles/official-colors';
+@import '~materialize-css/sass/components/color';
+//$secondary-color: color("blue", "darken-4");
+$secondary-color: color("blue", "darken-4");
+$roboto-font-path: "~materialize-css/fonts/roboto/";
+@import "~materialize-css/sass/materialize";
+
+
+body {
+  background-color: #efefef;
+  font-family: 'sandbox-sans-light';
+}
+
+#index-banner {
+  background-color: $sb-turqoise;
+  color: #ffffff;
+  padding: 50px 0 0 0;
+
+  h5 {
+    margin: 0;
+  }
+}
+
+#overview {
+  font-size: 22px;
+}
+
+#purpose {
+  p {
+    font-size: 18px;
+  }
+}
+
+.card.large {
+  height: 400px;
+
+  .card-image {
+    height: 400px;
+    max-height: none;
+
+    iframe {
+      border: 0;
+      height: 400px;
+      width: 100%
+    }
+  }
+}
+
+.no-mar-bot {
+  margin-bottom: 0 !important;
+}
