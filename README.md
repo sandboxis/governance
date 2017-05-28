@@ -1,3 +1,14 @@
+# About This Project
+
+This site presents an overview of the history and status of governance issues primarily through showing editable Google Documents.
+
+The project is written in Angular and Angular-CLI and is hosted on GitHub Pages.
+
+## How to Deploy
+
+ng build --prod --base-href "https://sandboxis.github.io/governance/"
+angular-cli-ghpages
+
 # Oursandbox.Is
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.6.
