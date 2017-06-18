@@ -4,10 +4,17 @@ This site presents an overview of the history and status of governance issues pr
 
 The project is written in Angular and Angular-CLI and is hosted on GitHub Pages.
 
+## How to run the project
+
+The project is build with Angular-ClI.
+
+With Angular CLI and dependencies installed, run `ng serve`
+
 ## How to Deploy
 
-ng build --prod --base-href "https://oursandbox.is"
-angular-cli-ghpages
+`ng build --prod --base-href "http://oursandbox.is"`
+`echo "oursandbox.is" > dist/CNAME`
+`angular-cli-ghpages`
 
 # Oursandbox.Is
 

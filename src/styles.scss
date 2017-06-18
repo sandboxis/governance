@@ -7,6 +7,7 @@
 @import '~materialize-css/sass/components/color';
 //$secondary-color: color("blue", "darken-4");
 $secondary-color: color("blue", "darken-4");
+$link-color: color("light-blue", "darken-4");
 $roboto-font-path: "~materialize-css/fonts/roboto/";
 @import "~materialize-css/sass/materialize";
 
@@ -14,6 +15,10 @@ $roboto-font-path: "~materialize-css/fonts/roboto/";
 body {
   background-color: #efefef;
   font-family: 'sandbox-sans-light';
+}
+
+#content {
+  margin-top: 50px;
 }
 
 #index-banner {
@@ -53,4 +58,21 @@ body {
 
 .no-mar-bot {
   margin-bottom: 0 !important;
+}
+
+.no-mar-top {
+  margin-top: 0 !important;
+}
+
+h2.title {
+  margin: 0 0 20px 0;
+  padding: 10px;
+  background-color: #e0e0e0;
+
+}
+
+.section {
+  h4 {
+    margin: 0;
+  }
 }

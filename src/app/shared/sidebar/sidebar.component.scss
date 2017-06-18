@@ -1,0 +1,31 @@
+ul#sidebar {
+  margin: 0;
+
+  > li {
+
+    > a, span {
+      display: block;
+      margin: 0 0 5px 0;
+      background-color: #e0e0e0;
+      color: #000000;
+      transition: background-color 1s;
+      padding: 5px;
+    }
+
+    > a:hover {
+      background-color: #c0c0c0;
+    }
+
+    > a.active {
+      background-color: #c0c0c0;
+    }
+
+    > a.active.overview-menu {
+      background-color: #e0e0e0;
+    }
+
+    ul {
+      margin-left: 10px;
+    }
+  }
+}
