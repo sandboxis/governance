@@ -14,11 +14,11 @@ import { SectionComponent, OverviewComponent } from './section';
 import { ProposalComponent } from './section/proposal/proposal.component';
 import { GovernanceComponent } from './section/governance/governance.component';
 import { LegalComponent } from './section/legal/legal.component';
-import { SubheaderComponent } from './shared/subheader/subheader.component';
 import { CommunityComponent } from './section/community/community.component';
 import { TransitionComponent } from './section/transition/transition.component';
 import { Transition2017Component } from './section/transition/transition-2017/transition-2017.component';
 import { Transition2014Component } from './section/transition/transition-2014/transition-2014.component';
+import { ResourcesComponent } from './section/resources/resources.component';
 
 @NgModule({
   declarations: [
@@ -30,11 +30,11 @@ import { Transition2014Component } from './section/transition/transition-2014/tr
     ProposalComponent,
     GovernanceComponent,
     LegalComponent,
-    SubheaderComponent,
     CommunityComponent,
     TransitionComponent,
     Transition2017Component,
-    Transition2014Component
+    Transition2014Component,
+    ResourcesComponent
   ],
   imports: [
     BrowserModule,

@@ -6,3 +6,4 @@ export * from './legal/legal.component';
 export * from './community/community.component';
 export * from './transition/transition-2017/transition-2017.component';
 export * from './transition/transition-2014/transition-2014.component';
+export * from './resources/resources.component';
