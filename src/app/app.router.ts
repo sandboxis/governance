@@ -1,5 +1,5 @@
 import { RouterModule, Route } from '@angular/router';
-import { ModuleWithProviders } from '@angular/core';
+
 import { OverviewComponent, ResourcesComponent, ProposalComponent, Transition2017Component, Transition2014Component, SectionComponent, GovernanceComponent, LegalComponent, CommunityComponent } from './section';
 
 const routes: Route[] = [
@@ -17,6 +17,6 @@ const routes: Route[] = [
   }
 ];
 
-export const routing: ModuleWithProviders = RouterModule.forRoot(
+export const routing = RouterModule.forRoot(
   routes
 );

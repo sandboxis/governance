@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'sandbox-sans-light';
+    src: url('./sandboxsans-light.woff2') format('woff2'),
+         url('./sandboxsans-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sandbox-sans-medium';
+    src: url('./sandboxsans-medium.woff2') format('woff2'),
+         url('./sandboxsans-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sandbox-sans-bold';
+    src: url('./sandboxsans-bold.woff2') format('woff2'),
+         url('./sandboxsans-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

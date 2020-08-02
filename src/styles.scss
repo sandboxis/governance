@@ -1,20 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
 
+$materialize-fonts-path: '~materialize-angular/fonts';
+@import '~materialize-angular/styles/materialize-angular.scss';
 
 @import url('http://fonts.googleapis.com/icon?family=Material+Icons');
-@import 'assets/styles/fonts';
+@import 'assets/fonts/fonts';
 @import 'assets/styles/official-colors';
-@import '~materialize-css/sass/components/color';
+
 //$secondary-color: color("blue", "darken-4");
 $secondary-color: color("blue", "darken-4");
 $link-color: color("light-blue", "darken-4");
-$roboto-font-path: "~materialize-css/fonts/roboto/";
-@import "~materialize-css/sass/materialize";
 
 
 body {
   background-color: #efefef;
   font-family: 'sandbox-sans-light';
+  line-height: 1.5;
 }
 
 #content {
